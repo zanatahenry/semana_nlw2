@@ -1,0 +1,56 @@
+#page-success{
+    background: var(--color-primary);
+}
+
+#page-success #container{
+    color: var(--color-text-in-primary);
+}
+
+#page-success .image-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#page-success .success-message{
+    font: 500 1.8rem Archivo;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#page-success .success-message p{
+    margin-top: 1.2rem;
+}
+
+.buttons-list{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttons-list a{
+    width: 20rem;
+    height: 8rem;
+
+    border-radius: 0.8rem;
+    
+
+    font: 700 1.8rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: background 0.2s;
+
+    color: var(--color-button-text);
+    background: var(--color-secondary);
+}
+
+.buttons-list a:hover{
+    background: var(--color-secondary-dark);
+}
